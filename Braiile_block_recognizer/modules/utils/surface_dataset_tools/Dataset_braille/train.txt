@@ -1,0 +1,13 @@
+images/MP_SEL_SUR_000069.jpg,masks/MP_SEL_SUR_000069.png
+images/MP_SEL_SUR_000104.jpg,masks/MP_SEL_SUR_000104.png
+images/MP_SEL_SUR_000059.jpg,masks/MP_SEL_SUR_000059.png
+images/MP_SEL_SUR_000084.jpg,masks/MP_SEL_SUR_000084.png
+images/MP_SEL_SUR_000095.jpg,masks/MP_SEL_SUR_000095.png
+images/MP_SEL_SUR_000056.jpg,masks/MP_SEL_SUR_000056.png
+images/MP_SEL_SUR_000119.jpg,masks/MP_SEL_SUR_000119.png
+images/MP_SEL_SUR_000046.jpg,masks/MP_SEL_SUR_000046.png
+images/MP_SEL_SUR_000033.jpg,masks/MP_SEL_SUR_000033.png
+images/MP_SEL_SUR_000090.jpg,masks/MP_SEL_SUR_000090.png
+images/MP_SEL_SUR_000110.jpg,masks/MP_SEL_SUR_000110.png
+images/MP_SEL_SUR_000028.jpg,masks/MP_SEL_SUR_000028.png
+images/MP_SEL_SUR_000073.jpg,masks/MP_SEL_SUR_000073.png
