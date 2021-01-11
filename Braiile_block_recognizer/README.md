@@ -4,11 +4,6 @@ Original repository: https://github.com/selectstarofficial/segmentation-selectst
 
 See result videos in "./DESIGN_PROJECT/output/mp4".
 
-
-# segmentation-selectstar
-
-![](https://media.giphy.com/media/S7KnEAj0ZYpXeDLLuJ/giphy.gif)
-
 # Introduction
 
 This is a prototype model of **Pedestrian zone detection for blind people**.
@@ -122,21 +117,14 @@ Modified to run NIA SurfaceMasking dataset by yoongi@selectstar.ai
 
 
 # Download Trained Weights
-[Model Weights](https://drive.google.com/file/d/1Y8RhV3hWEoE4mqbriGbAyMDQMIaQdrnb/view?usp=sharing)
-
-Download and put it into ```./run/surface/deeplab/model_iou_77.pth.tar```
+[Run folder](https://drive.google.com/file/d/1QOs1b4eIOwRN2pGB_m4xd5t5mNJP6lXH/view?usp=sharing)
+: Model weight and settings are in this folder. (= checkpoint.pth.tar)
 
 (Just create directory or Edit settings.py -> checkpoint, predict.py -> MODEL_PATH)
 
-[Settings for Reproduction](https://drive.google.com/drive/folders/16Pu_N7TOJN6NA9d92ohREWsVy9cWRH1i?usp=sharing)
-
-![](docs/imgs/logs.png)
-Trained on TitanXP x 4
-
-
 # Predict
 1. Prepare 'mp4 video' or 'jpg images' to predict. And put it into 'test' directory.
-2. Prepare trained model like ```model_iou_77.pth.tar```
+2. Prepare trained model like ```checkpoint.pth.tar```
 2. Edit ```RUN OPTIONS``` on predict.py
     ```
     MODEL_PATH, MODE, DATA_PATH, OUTPUT_PATH
@@ -149,25 +137,3 @@ Trained on TitanXP x 4
 1. Prepare dataset and trained model file.
 2. Check settings.py options.
 3. Run evaluate.py
-
-### Performance
-
-Result of 2000 random selected validation set.
-
-(fwIoU: Frequency Weighted Intersection over Union)
-
-Acc | Acc_class | mIoU | fwIoU
---- | --- | --- | ---
-91.46% | 84.74% | 77.29% | 84.34%
-
-IoU of each class
-
-Class | IoU
---- | ---
-background|85.40%
-bike_lane|64.78%
-caution_zone|57.19%
-crosswalk|80.21%
-guide_block|81.34%
-roadway|85.69%
-sidewalk|86.45%
